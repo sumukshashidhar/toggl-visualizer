@@ -8,5 +8,5 @@ class Plot:
     
 
     def pie_plot(self):
-        fig = px.pie(self.df, values='Duration', names='Description')
+        fig = px.pie(self.df, values='dur', names='Description')
         fig.show()

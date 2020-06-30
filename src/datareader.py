@@ -21,6 +21,8 @@ class Reader:
 
     def clean(self):
         self.df.drop(columns=['User', 'Email', 'Client', 'Billable', 'Tags', 'Amount ()'], inplace=True)
+        durchange = lambda duration: int(duration[:2])*60 + int(duration[3:5])
+        self.df['dur'] = self.df['Duration'].apply(durchange)
 
     
     def export_cleaned(self):

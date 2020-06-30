@@ -13,5 +13,5 @@ data2 = datareader.Reader(filepath='data/1--clean.csv')
 print(data2.get_full_dataframe())
 
 
-a = vs.Plot(data2)
+a = vs.Plot(data2.get_full_dataframe())
 a.pie_plot()
