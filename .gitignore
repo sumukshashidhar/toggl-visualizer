@@ -1,6 +1,7 @@
 # personal data folder
 data/
 *.log
+sample--clean.csv
 
 # macos
 *.DS_Store
