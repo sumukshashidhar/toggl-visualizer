@@ -11,7 +11,7 @@ filepath = './samples/sample.csv'
 
 class Reader:
 
-    def __init__(self, filepath='./sample/sample.csv'):
+    def __init__(self, filepath='./samples/sample.csv'):
         self.df = pd.read_csv(filepath)
     
 
