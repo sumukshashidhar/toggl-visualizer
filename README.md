@@ -13,3 +13,7 @@ python3 sample.py
 ```
 
 and you should get a plotly graph
+
+# The Future
+
+I'll make a directory mapping and auto-graphing module for this in the future.
