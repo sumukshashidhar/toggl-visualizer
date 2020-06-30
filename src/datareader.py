@@ -17,4 +17,8 @@ class Reader:
 
     def get_full_dataframe(self):
         return self.df
-    
+
+
+    def clean(self):
+        df.drop(columns=['User', 'Email', 'Client', 'Billable', 'Tags', 'Amount'], inplace=True)
+        
